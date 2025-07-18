@@ -3,6 +3,11 @@
 Este projeto tem como objetivo prever o **preço de veículos usados** a partir de um conjunto de dados públicos. Utilizamos um modelo supervisionado de **regressão com árvore de decisão**, precedido por um processo robusto de **limpeza, tratamento e preparação dos dados**.
 
 ---
+🔗 Link para o dataset no Kaggle
+Você pode acessar o dataset "Used Cars Dataset" através do seguinte link:
+
+👉 Used Cars Dataset - Kaggle
+https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
 
 ## 📌 Objetivos do Projeto
 
