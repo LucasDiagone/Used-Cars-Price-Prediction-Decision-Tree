@@ -39,7 +39,21 @@ A qualidade dos dados foi tratada com muito cuidado, considerando as boas práti
 
 ### 4️⃣ Verificação de Duplicatas
 - Eliminação de registros duplicados.
+### 5️⃣ 📊 Análise de Assimetria (Skew) e Transformação Logarítmica da Variável price
+Realizamos a análise da assimetria (skewness) das variáveis numéricas para identificar distribuições distorcidas que podem impactar negativamente a performance dos modelos preditivos. A variável price apresentou skew superior a 0.75, indicando forte assimetria positiva.
+Para corrigir essa distorção, aplicamos a transformação logarítmica na variável price, o que aproximou sua distribuição de uma forma mais simétrica. Essa transformação é fundamental para melhorar a estabilidade e a eficiência do modelo, facilitando o aprendizado e a generalização.
 
+O processo incluiu:
+
+- Cálculo do skew das variáveis numéricas
+
+- Identificação das variáveis com skew > 0.75
+
+- Aplicação da transformação logarítmica na variável price
+
+- Visualização comparativa da distribuição antes e depois da transformação
+
+Esse passo é essencial para assegurar a qualidade dos dados e otimizar a modelagem preditiva.
 ---
 
 ## 📊 Análise Estatística
