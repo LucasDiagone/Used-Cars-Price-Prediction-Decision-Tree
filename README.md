@@ -43,7 +43,7 @@ A qualidade dos dados foi tratada com muito cuidado, considerando as boas práti
 Realizamos a análise da assimetria (skewness) das variáveis numéricas para identificar distribuições distorcidas que podem impactar negativamente a performance dos modelos preditivos. A variável price apresentou skew superior a 0.75, indicando forte assimetria positiva.
 Para corrigir essa distorção, aplicamos a transformação logarítmica na variável price, o que aproximou sua distribuição de uma forma mais simétrica. Essa transformação é fundamental para melhorar a estabilidade e a eficiência do modelo, facilitando o aprendizado e a generalização.
 
-O processo incluiu:
+**O processo incluiu:
 
 - Cálculo do skew das variáveis numéricas
 
