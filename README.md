@@ -58,7 +58,7 @@ Esse passo é essencial para assegurar a qualidade dos dados e otimizar a modela
 
 ## 📊 Análise Estatística
 
-- **Teste Qui-Quadrado**: aplicado para avaliar a associação entre variáveis categóricas e o preço (`price`). Todas as variáveis mostraram relação significativa (p < 0.05).
+- **Teste T e ANOVA**: aplicados para avaliar se existem diferenças significativas no preço médio (price) entre as categorias das variáveis categóricas. Variáveis com p-valor < 0,05 indicam que há diferença estatisticamente significativa entre pelo menos dois grupos, sugerindo que essas categorias influenciam a variação dos preços.
 - **Correlação**: as variáveis `year` (+0.28) e `odometer` (–0.43) apresentaram maior correlação com o preço.
 
 ---
